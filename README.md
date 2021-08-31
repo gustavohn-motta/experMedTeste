@@ -39,5 +39,12 @@ ________________________________________________________________________________
   -  Para configurar o nome do arquivo basta alterar a variável **$nomeRelatório** que por padrão vem com a String 'Relatorio - ' ,função Date('d-m-Y-H-i-s'), '.done.dat'
     - CUIDADO! A extensão do arquivo é definido através da ultima string passada a variável
 
+--------------------------
+
+**Observação**
+
+- O diretório Data e um diretório montado para teste do funcionamento da aplicação.
+- O sistema realiza a leitura apenas de arquivos .dat no diretório indicado, porem nao realiza a exclusão de arquivos com outras extensões.
+
 
 
