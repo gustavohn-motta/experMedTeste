@@ -2,7 +2,7 @@
 require_once 'assets/pub_function.php';
 require_once 'Class/Relatorio.php';
 //Defini caminho para extrair os Nome dos arquivos
-$path = "data/in/";
+$path = "%HOMEPATH%/data/in";
 $diretorio = dir($path);
 $cont = 0;
 

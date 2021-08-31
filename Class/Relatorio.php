@@ -47,7 +47,7 @@ class Relatorio
                 //Fecha arquivo 
                 fclose($relatorio);
         //define local para arquivo ser inserido
-        $localArquivo = "Data/out/" . $nomeRelatorio;
+        $localArquivo = "%HOMEPATH%/data/out/" . $nomeRelatorio;
         rename($nomeRelatorio, $localArquivo);
 
     }
